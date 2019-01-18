@@ -8,6 +8,13 @@
 
 _This is a website that will suggest what coding track a person is recommended to take based on selecting options from the form._
 
+## Setup Instructions
+
+* _Copy URL Link into your Terminal_
+* _Use git clone "url" in the folder you wish to save it to_
+* _Open index HTML to load the track suggester into your browser!_
+* _Or, you can just access it from [here](https://kennyhalim.github.io/track-suggester)
+
 ## Support and contact details
 
 _Feel free to use this code, contact me at kennyhalim98@gmail.com_
