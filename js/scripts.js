@@ -13,7 +13,6 @@ $(document).ready(function(){
     var question4 = $("input:radio[name=question4]:checked").val();
     var question5 = $("input:radio[name=question5]:checked").val();
 
-
     if (question1 === "yes1") {
       if (question2 === "frontend" || question3 === "website") {
         $(".name").text(name1);
@@ -60,6 +59,4 @@ $(document).ready(function(){
     $("#sorry").hide();
     location.reload();
   });
-
-
 });
