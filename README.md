@@ -1,16 +1,16 @@
-# _Character Quiz_
+# _Track Suggester_
 
-#### _Character Quiz 01/17/2019_
+#### _Track Suggester 01/18/2019_
 
-#### By _**Kenny Halim and Theary Im**_
+#### By _**Kenny Halim**_
 
 ## Description
 
-_This is a website that shows what character your are in the movie Guardians Of The Galaxy_
+_This is a website that will suggest what coding track a person is recommended to take based on selecting options from the form._
 
 ## Support and contact details
 
-_Feel free to use this code, contact me at kennyhalim98@gmail.com, thearyim@gmail.com_
+_Feel free to use this code, contact me at kennyhalim98@gmail.com_
 
 ## Technologies Used
 
@@ -26,4 +26,4 @@ _Feel free to use this code, contact me at kennyhalim98@gmail.com, thearyim@gmai
 MIT
 **
 
-Copyright (c) 2019 **_Kenny Halim and Theary Im_**
+Copyright (c) 2019 **_Kenny Halim_**

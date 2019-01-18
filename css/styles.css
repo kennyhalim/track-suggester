@@ -26,3 +26,7 @@ body {
 #buttoncenter {
   text-align: center;
 }
+
+#quiz {
+  display:none;
+}

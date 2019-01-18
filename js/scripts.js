@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  // $("button#takequiz").click(function(){
-  //   $(".intro").hide();
-  //   $("button#takequiz").hide();
-  // });
+  $("button#takequiz").click(function(){
+    $(".intro").hide();
+    $("button#takequiz").hide();
+    $("#quiz").show();
+  });
 
 });

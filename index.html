@@ -51,7 +51,7 @@
     </div>
 
     <div id="buttoncenter">
-      <button class="button btn-info" id="takequiz">Take the quiz now!</button>
+      <button type="button" class="btn btn-info" id="takequiz">Take the quiz now!</button>
     </div>
 
     <div id="quiz">
@@ -62,10 +62,114 @@
           <input id="name" type="text" required>
         </div>
 
+        <div class="question1">
+          <p>Are you willing to learn coding? <strong>(REQUIRES TONS OF PRACTICE)</strong></p>
+          <div class="radio">
+            <label>
+            <input type="radio" name="question1" value="yes1" checked="checked">
+            Yes
+            </label>
+          </div>
 
+          <div class="radio">
+            <label>
+            <input type="radio" name="question1" value="yes2">
+            No
+            </label>
+          </div>
+        </div>
+
+        <div class="question2">
+          <p>Are you interested in front-end development or back-end development?</p>
+          <div class="radio">
+            <label>
+            <input type="radio" name="question2" value="frontend" checked="checked">
+            Front-end
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="question2" value="backend">
+            Back-end
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="question2" value="both">
+            Both..?
+            </label>
+          </div>
+        </div>
+
+        <div class="question3">
+          <p>Which of the following you like the most?</p>
+          <div class="radio">
+            <label>
+            <input type="radio" name="question3" value="mobile" checked="checked">
+            Mobile Apps
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="question3" value="website">
+            Websites
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="question3" value="software">
+            Software Applications (not Mobile)
+            </label>
+          </div>
+        </div>
+
+        <div class="question4">
+          <p>Do you want to go into game development?</p>
+          <div class="radio">
+            <label>
+            <input type="radio" name="question4" value="yes4" checked="checked">
+            Yes
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="question4" value="no4">
+            No
+            </label>
+          </div>
+        </div>
+
+        <div class="question5">
+          <p>Companies you want to work for?</p>
+          <div class="radio">
+            <label>
+            <input type="radio" name="question5" value="twitter" checked="checked">
+            Twitter, AirBnB, Shopify
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="question5" value="microsoft">
+            Microsoft, Stackoverflow, Opentable
+            </label>
+          </div>
+        </div>
 
         <button type="submit" id="submitBtn" class="btn btn-info">Find my track!</button>
       </form>
+    </div>
+
+    <div id="result">
+      <h3> Hi there, <span class="name"></span><br>Here is our suggested track for you!</h3>
+      <p id="output">
+      </p><br><br>
+      <button type="button" class="btn btn-info" id="goBack">Go Back</buttton>
     </div>
 
 
