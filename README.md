@@ -10,10 +10,10 @@ _This is a website that will suggest what coding track a person is recommended t
 
 ## Setup Instructions
 
-* _Copy URL Link into your Terminal_
+* _Copy https://github.com/kennyhalim/track-suggester _
 * _Use git clone "url" in the folder you wish to save it to_
 * _Open index HTML to load the track suggester into your browser!_
-* _Or, you can just access it from [here](https://kennyhalim.github.io/track-suggester)
+* _Or, you can just access it from [here](https://kennyhalim.github.io/track-suggester)_
 
 ## Support and contact details
 
