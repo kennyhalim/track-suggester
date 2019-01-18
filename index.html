@@ -5,12 +5,68 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Character Quiz</title>
+  <title>Track Suggester</title>
 </head>
 <body>
 
   <div class="container">
+    <h1 class="header">Coding Track Suggester</h1>
+    <p class="header">In the need of dire help to figure out which coding language will fit you the most? <br> You are in the perfect place to figure it out! <br> Simply fill out the quiz and you will get your result!</p>
+    <br>
 
+    <div class="row intro">
+      <div class="col-md-6">
+        <div class="panel panelintro">
+          <div class="panel-heading">
+           <h2 class="panel-title"> <em>Here</em> we have provided these <strong>following tracks</strong>:</h2>
+          </div>
+          <div class="panel-body panelbg">
+            <ul>
+              <li>Ruby/Rails</li>
+              <li>PHP/Drupal</li>
+              <li>Java/Android</li>
+              <li>CSS/Design</li>
+              <li>C#/.NET</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="panel panelintro">
+          <div class="panel-heading">
+           <h2 class="panel-title">Before taking the quiz, please consider the following:</h2>
+          </div>
+          <div class="panel-body panelbg">
+            <ol>
+              <li>Learning to code is a never-ending process.</li>
+              <li>Coding requires excellent skills in <strong>Googling.</strong></li>
+              <li>Requires <span style="color:blue">HOURS</span> of practice.</li>
+              <li><strong>PATIENCE</strong> is key.</li>
+              <li>Lastly, click <a href="https://www.epicodus.com/what-to-expect/">here</a> to how coding bootcamp works.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="buttoncenter">
+      <button class="button btn-info" id="takequiz">Take the quiz now!</button>
+    </div>
+
+    <div id="quiz">
+      <form id="char-quiz">
+
+        <div class="form-group">
+          <label for="name">Please enter your full name:</label>
+          <input id="name" type="text" required>
+        </div>
+
+
+
+        <button type="submit" id="submitBtn" class="btn btn-info">Find my track!</button>
+      </form>
+    </div>
 
 
 

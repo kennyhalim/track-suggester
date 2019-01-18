@@ -1,0 +1,28 @@
+body {
+  background-color: #D0D5D6;
+}
+
+.header {
+  text-align: center;
+}
+
+.intro {
+  //display: none;
+}
+
+.panelintro {
+  background-color: #808080;
+}
+
+.panelbg {
+  background-color: #C0C0C0;
+}
+
+.panel h2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#buttoncenter {
+  text-align: center;
+}
